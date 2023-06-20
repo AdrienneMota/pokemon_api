@@ -1,0 +1,17 @@
+name: pokemon_api
+version: 0.1.0
+
+authors:
+  - odilomarjuniorchiro <orebelo@chirotouch.com>
+
+targets:
+  pokemon_api:
+    main: src/pokemon_api.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 1.8.2
+
+license: MIT
